@@ -1,3 +1,11 @@
+import { Header } from 'components/Header/Header';
+import './App.css';
+
 export const App = () => {
-  return <></>;
+  return (
+    <div>
+      <Header />
+      <main></main>
+    </div>
+  );
 };
