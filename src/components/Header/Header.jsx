@@ -4,7 +4,7 @@ import './Header.css';
 export const Header = () => {
   return (
     <header className="header center">
-      <div className="header-wrapper">
+      <div className="header-wrapper center">
         <h3>
           <a
             href="https://yuliia-harkusha.github.io/portfolio/"
