@@ -15,10 +15,6 @@
   display: none;
 }
 
-.nav__theme {
-  margin-top: 0.4rem;
-}
-
 @media (max-width: 600px) {
   .nav__list {
     display: none;

@@ -1,12 +1,14 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { BsFillSunFill } from 'react-icons/bs';
 import { HiOutlineMenu } from 'react-icons/hi';
 import { AiOutlineClose } from 'react-icons/ai';
+import { ThemeContext } from 'context/theme';
 import './Navbar.css';
 
 export const Navbar = () => {
   const [showNavList, setShowNavList] = useState(false);
+  const [{ themeName, toggleTheme }] = useContext(ThemeContext);
 
   const toggleNavList = () => setShowNavList(!showNavList);
 
@@ -37,7 +39,10 @@ export const Navbar = () => {
         className="btn btn-icon nav__theme"
         type="button"
         aria-label="toggle theme"
-      ></button>
+        onClick={toggleTheme}
+      >
+        {themeName === 'dark' ? <BsFillSunFill /> : <BsFillMoonStarsFill />}
+      </button>
 
       <button
         className="btn btn-icon nav__menu"
