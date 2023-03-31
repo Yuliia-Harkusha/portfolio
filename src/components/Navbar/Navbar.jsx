@@ -1,8 +1,8 @@
 import { useState, useContext } from 'react';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { BsFillSunFill } from 'react-icons/bs';
-import { HiOutlineMenu } from 'react-icons/hi';
-import { AiOutlineClose } from 'react-icons/ai';
+import { GrClose } from 'react-icons/gr';
+import { GrMenu } from 'react-icons/gr';
 import { ThemeContext } from 'context/theme';
 import './Navbar.css';
 
@@ -16,7 +16,7 @@ export const Navbar = () => {
     <nav className="center nav">
       <ul
         style={{ display: showNavList ? 'flex' : null }}
-        className="nav__list"
+        className="nav__list "
       >
         <li className="nav__list-item">
           <a href="#projects" className="link link-nav" onClick={toggleNavList}>
@@ -48,8 +48,9 @@ export const Navbar = () => {
         className="btn btn-icon nav__menu"
         type="button"
         aria-label="toggle navigation"
+        onClick={toggleNavList}
       >
-        {showNavList ? <AiOutlineClose /> : <HiOutlineMenu />}
+        {showNavList ? <GrClose /> : <GrMenu />}
       </button>
     </nav>
   );
