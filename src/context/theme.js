@@ -7,14 +7,17 @@ const ThemeProvider = ({ children }) => {
 
   useEffect(() => {
     const darkMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
     setThemeName(darkMediaQuery.matches ? 'dark' : 'light');
-    darkMediaQuery.addEventListener('change', e => {
-      setThemeName(e.matches ? 'dark' : 'light');
-    });
+
+    // darkMediaQuery.addEventListener('change', e => {
+    //   setThemeName(e.matches ? 'dark' : 'light');
+    // });
   }, []);
 
   const toggleTheme = () => {
     const name = themeName === 'dark' ? 'light' : 'dark';
+
     localStorage.setItem('themeName', name);
     setThemeName(name);
   };

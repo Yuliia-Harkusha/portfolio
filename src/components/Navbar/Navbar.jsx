@@ -13,7 +13,7 @@ export const Navbar = () => {
   const toggleNavList = () => setShowNavList(!showNavList);
 
   return (
-    <nav className="center nav">
+    <nav className="center">
       <ul
         style={{ display: showNavList ? 'flex' : null }}
         className="nav__list "

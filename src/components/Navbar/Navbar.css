@@ -1,6 +1,6 @@
 .nav__list {
-  margin-right: 1.5rem;
   display: flex;
+  margin-right: 1.5rem;
 }
 .nav__list-item {
   margin-left: 1.5rem;
@@ -17,12 +17,12 @@
 
 @media (max-width: 600px) {
   .nav__list {
+    position: fixed;
+    inset: 0;
     display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    inset: 0;
     padding-inline-start: 0;
     width: 100vw;
     height: 80vh;
@@ -35,7 +35,7 @@
 
   .app .nav__menu {
     display: flex;
-    z-index: 2;
     margin-left: 0.8rem;
+    z-index: 2;
   }
 }
