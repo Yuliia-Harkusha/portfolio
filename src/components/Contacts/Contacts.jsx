@@ -5,7 +5,7 @@ import './Contacts.css';
 
 export const Contacts = () => {
   return (
-    <section className="section center contacts" id="contact">
+    <section className="section center contacts" id="contacts">
       <h2 className="section__title">Find me on</h2>
       <p className="text">
         Feel free to <span className="text-accent">connect</span> with me
