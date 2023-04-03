@@ -2,6 +2,7 @@
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
+  position: relative;
 }
 
 .light {
