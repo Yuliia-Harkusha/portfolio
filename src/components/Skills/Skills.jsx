@@ -11,7 +11,7 @@ export const Skills = () => {
       <ul className="skills__list">
         {skills.map(skill => {
           return (
-            <li key={nanoid()} className="skills__list-item btn">
+            <li key={nanoid()} className="skills__list-item">
               {skill}
             </li>
           );
