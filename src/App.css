@@ -37,7 +37,7 @@ main {
 
 .section__title {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -65,13 +65,25 @@ main {
   cursor: pointer;
   padding: 0.8em 1.4em;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   transition: transform 0.2s ease-in-out;
 }
 
-.btn-outline:hover,
-.btn-outline:focus {
-  color: var(--clr-bg);
+.btn-icon {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+}
+
+.btn-icon:hover,
+.btn-icon:focus {
+  color: var(--clr-primary);
+}
+
+.btn-icon:active {
+  transform: translateY(-5px);
 }
 
 @media (max-width: 600px) {

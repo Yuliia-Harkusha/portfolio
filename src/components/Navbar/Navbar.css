@@ -15,6 +15,16 @@
   display: none;
 }
 
+.nav__theme {
+  color: rgb(237, 168, 40);
+  transition: color 300ms ease-in-out;
+}
+
+.btn-icon.nav__theme:hover,
+.btn-icon.nav__theme:focus {
+  color: rgb(244, 188, 21);
+}
+
 @media (max-width: 600px) {
   .nav__list {
     position: fixed;
