@@ -13,6 +13,12 @@
   padding: 0.5rem 2rem;
 }
 
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
 /* @media (max-width: 600px) {
   .header {
     height: 4rem;

@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import { ThemeContext } from 'context/theme';
 import { Header } from 'components/Header/Header';
 import { Home } from 'components/Home/Home';
+import { Projects } from 'components/Projects/Projects';
 import { Skills } from 'components/Skills/Skills';
 import { Contacts } from 'components/Contacts/Contacts';
 import { Footer } from 'components/Footer/Footer';
@@ -15,6 +16,7 @@ export const App = () => {
       <Header />
       <main>
         <Home />
+        <Projects />
         <Skills />
         <Contacts />
       </main>

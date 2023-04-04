@@ -8,7 +8,7 @@ export const Header = () => {
         <h2>
           <a
             href="https://yuliia-harkusha.github.io/portfolio/"
-            className="link"
+            className="link logo"
           >
             YH
           </a>
