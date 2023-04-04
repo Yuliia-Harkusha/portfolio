@@ -4,32 +4,46 @@ import { MdPreview } from 'react-icons/md';
 
 export const SingleProject = ({ project }) => {
   return (
-    <div className="project-item">
-      <img src={project.image} alt="project pic" />
+    <div className="project">
+      <img className="project__image" src={project.image} alt="project pic" />
 
       <h3>{project.name}</h3>
 
-      <p>{project.description}</p>
+      <p className="project__description">{project.description}</p>
 
       {project.stack && (
-        <ul>
+        <ul className="project__stack">
           {project.stack.map(item => (
-            <li key={nanoid()}>{item}</li>
+            <li key={nanoid()} className="project__stack-item">
+              {item}
+            </li>
           ))}
         </ul>
       )}
 
-      <ul>
+      <ul className="project__links center">
         {project.sourceCode && (
           <li>
-            <a href={project.sourceCode} aria-label="source code">
+            <a
+              className="project__link-item center"
+              href={project.sourceCode}
+              aria-label="source code"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub /> GitHub
             </a>
           </li>
         )}
         {project.livePreview && (
           <li>
-            <a href={project.livePreview} aria-label="live preview">
+            <a
+              className="project__link-item center"
+              href={project.livePreview}
+              aria-label="live preview"
+              target="_blank"
+              rel="noreferrer"
+            >
               <MdPreview />
               Demo
             </a>

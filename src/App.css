@@ -32,7 +32,7 @@ main {
 }
 
 .section {
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 .section__title {
@@ -69,49 +69,13 @@ main {
   transition: transform 0.2s ease-in-out;
 }
 
-.btn-outline {
-  color: var(--clr-primary);
-  border: 2px solid var(--clr-primary);
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
-
 .btn-outline:hover,
 .btn-outline:focus {
   color: var(--clr-bg);
 }
 
-.btn-plain {
-  text-transform: initial;
-  background-color: var(--clr-bg-alt);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-  border: 0;
-}
-
-.btn-plain:hover {
-  transform: translateY(-4px);
-}
-
-.btn-icon {
-  display: flex;
-  align-items: center;
-  padding: 0;
-  border: none;
-  background-color: inherit;
-}
-
-.btn-icon:hover,
-.btn-icon:focus {
-  color: var(--clr-primary);
-}
-
-.btn-icon:active {
-  transform: translateY(-5px);
-}
-
 @media (max-width: 600px) {
   .section {
-    margin-top: 4em;
+    margin-top: 4rem;
   }
 }

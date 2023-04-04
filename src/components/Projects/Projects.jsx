@@ -7,10 +7,10 @@ export const Projects = () => {
   if (!projects.length) return null;
 
   return (
-    <section id="projects" className="section projects">
+    <section id="projects" className="section">
       <h2 className="section__title">Projects</h2>
 
-      <div>
+      <div className="projects">
         {projects.map(project => (
           <SingleProject key={nanoid()} project={project} />
         ))}
