@@ -6,6 +6,7 @@ import { Projects } from 'components/Projects/Projects';
 import { Skills } from 'components/Skills/Skills';
 import { Contacts } from 'components/Contacts/Contacts';
 import { Footer } from 'components/Footer/Footer';
+import { ScrollUp } from 'components/ScrollToTop/ScrollToTop';
 import './App.css';
 
 export const App = () => {
@@ -20,6 +21,7 @@ export const App = () => {
         <Skills />
         <Contacts />
       </main>
+      <ScrollUp />
       <Footer />
     </div>
   );

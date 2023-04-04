@@ -9,6 +9,8 @@
 .link-nav {
   color: var(--clr-fg);
   font-weight: 500;
+  font-size: 1.15rem;
+  letter-spacing: 0.05rem;
 }
 
 .app .nav__menu {

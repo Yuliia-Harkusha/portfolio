@@ -9,6 +9,8 @@ const skills = [
   'Git',
 ];
 
+const linkCV = '';
+
 const projects = [
   {
     image: '',
@@ -20,7 +22,7 @@ const projects = [
       'React Router',
       'React Context',
       'Styled Components',
-      'ThCocktalDB API',
+      'ThCocktailDB API',
     ],
     sourceCode: 'https://github.com/Yuliia-Harkusha/cocktails',
     livePreview: 'https://yuliia-harkusha.github.io/cocktails/',
@@ -79,4 +81,4 @@ const projects = [
   },
 ];
 
-export { skills, projects };
+export { linkCV, skills, projects };
