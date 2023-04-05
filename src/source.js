@@ -1,3 +1,9 @@
+import book from 'images/Book.png';
+import cocktail from 'images/Cocktail.webp';
+import petly from 'images/Petly.png';
+import weather from 'images/Weather.jpg';
+import webStudio from 'images/WebStudio.jpg';
+
 const skills = [
   'HTML',
   'CSS',
@@ -13,7 +19,7 @@ const linkCV = '';
 
 const projects = [
   {
-    image: '',
+    image: cocktail,
     name: 'Cocktails',
     description:
       'In this app you can find your favourite cocktail aссompanied by the description and the ingredients. Natty and tasty design, responsive layout.',
@@ -28,7 +34,7 @@ const projects = [
     livePreview: 'https://yuliia-harkusha.github.io/cocktails/',
   },
   {
-    image: '',
+    image: weather,
     name: 'Weather App',
     description:
       'A simple one-page site for finding current weather in different cities simultaneously displaying a picture of the determined city.',
@@ -44,7 +50,7 @@ const projects = [
     livePreview: 'https://yuliia-harkusha.github.io/weather-app/',
   },
   {
-    image: '',
+    image: book,
     name: 'PhoneBook',
     description:
       'A small application that includes all the necessary functionality of the phone book.',
@@ -53,7 +59,7 @@ const projects = [
     livePreview: 'https://yuliia-harkusha.github.io/phonebook-app/',
   },
   {
-    image: '',
+    image: petly,
     name: 'Petly',
     description:
       'Team project where I made  OurFriends/Partners section,  both backend and frontend parts. The idea of the application is to help users to find, sell or buy pets.',
@@ -71,7 +77,7 @@ const projects = [
     livePreview: 'https://petly-frontend.vercel.app/',
   },
   {
-    image: '',
+    image: webStudio,
     name: 'WebStudio',
     description:
       'My first learning project going from the basics of HTML/CSS to a full-fledged cross-browser and adaptive layout.',
