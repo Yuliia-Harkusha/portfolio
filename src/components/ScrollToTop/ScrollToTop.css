@@ -13,7 +13,7 @@
 
 .scrollUp:hover,
 .scrollUp:focus {
-  transform: scale(1.1);
+  transform: scale(1.05);
   box-shadow: var(--shadow);
   opacity: 0.9;
 }
