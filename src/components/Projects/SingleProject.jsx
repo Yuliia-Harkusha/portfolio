@@ -5,7 +5,7 @@ import { MdPreview } from 'react-icons/md';
 export const SingleProject = ({ project }) => {
   return (
     <div className="project">
-      <img className="project__image" src={project.image} alt="project pic" />
+      <img className="project__image" src={project.image} alt={project.name} />
 
       <h3>{project.name}</h3>
 
@@ -45,7 +45,7 @@ export const SingleProject = ({ project }) => {
               rel="noreferrer"
             >
               <MdPreview />
-              Demo
+              View
             </a>
           </li>
         )}

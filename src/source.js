@@ -1,4 +1,4 @@
-import book from 'images/Book.png';
+import phone from 'images/Phone.jpg';
 import cocktail from 'images/Cocktail.webp';
 import petly from 'images/Petly.png';
 import weather from 'images/Weather.jpg';
@@ -50,10 +50,10 @@ const projects = [
     livePreview: 'https://yuliia-harkusha.github.io/weather-app/',
   },
   {
-    image: book,
+    image: phone,
     name: 'PhoneBook',
     description:
-      'A small application that includes all the necessary functionality of the phone book.',
+      'A small application that includes all the necessary functionality of the contact book.',
     stack: ['React', 'React Router', 'Redux', 'Styled Components'],
     sourceCode: 'https://github.com/Yuliia-Harkusha/phonebook-app',
     livePreview: 'https://yuliia-harkusha.github.io/phonebook-app/',

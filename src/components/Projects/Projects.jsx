@@ -11,6 +11,7 @@ export const Projects = () => {
 
   const settings = {
     dots: true,
+    lazyLoad: true,
     infinite: true,
     speed: 500,
     slidesToShow: 2,
