@@ -49,6 +49,7 @@ export const Navbar = () => {
         type="button"
         aria-label="toggle navigation"
         onClick={toggleNavList}
+        style={{ position: showNavList ? 'fixed' : 'static' }}
       >
         {showNavList ? <GrClose /> : <GrMenu />}
       </button>
