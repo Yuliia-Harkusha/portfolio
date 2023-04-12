@@ -63,7 +63,7 @@
   opacity: 0.9;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .home {
     display: flex;
     flex-direction: column;
