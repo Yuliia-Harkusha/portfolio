@@ -31,6 +31,14 @@
   font-family: Raleway, sans-serif;
 }
 
+.home-about {
+  margin-bottom: 1rem;
+}
+
+.home-about.last {
+  margin-bottom: 2rem;
+}
+
 .btn.home-btn {
   padding: 0.5rem 0.7rem;
   color: var(--clr-bg);
@@ -67,6 +75,10 @@
 
   .top-title {
     font-size: 1rem;
+  }
+
+  .home-about {
+    font-size: 0.9rem;
   }
 
   .hero-img {

@@ -15,7 +15,9 @@ export const Navbar = () => {
   return (
     <nav className="center">
       <ul
-        style={{ display: showNavList ? 'flex' : null }}
+        style={{
+          display: showNavList ? 'flex' : null,
+        }}
         className="nav__list "
       >
         <li className="nav__list-item">

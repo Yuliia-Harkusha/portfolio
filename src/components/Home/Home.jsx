@@ -8,7 +8,20 @@ export const Home = () => {
       <div>
         <p className="top-title">Junior Front-End Developer</p>
         <h1 className="home-title">Hello, I'm Yuliia</h1>
-        <p></p>
+        <p className="home-about">
+          I am a Junior Frontend Developer with a focus on JavaScript and
+          ReactJS, passionate about learning and exploring new things .
+        </p>
+        <p className="home-about">
+          I enjoy coding and prefer to work in an agile way, ensuring the
+          technical feasibility of UI/UX designs.
+        </p>
+        <p className="home-about last">
+          I’m interested in collaborating with people from different background
+          and experience in order to build nice products together. I am a team
+          worker who is open-minded, motivated to learn and develop further,
+          with a willingness to improve myself, the team, and the workflow.
+        </p>
         <a
           href={linkCV}
           download="YuliiaHarkusha_CV.pdf"
