@@ -22,7 +22,7 @@
   height: 0.2rem;
   position: absolute;
   left: 0;
-  bottom: -1px;
   background-color: var(--clr-primary);
+  opacity: 0.9;
   border-radius: 2px;
 }
