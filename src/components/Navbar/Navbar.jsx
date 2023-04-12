@@ -1,8 +1,10 @@
 import { useState, useContext } from 'react';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { BsFillSunFill } from 'react-icons/bs';
-import { GrClose } from 'react-icons/gr';
-import { GrMenu } from 'react-icons/gr';
+import { TfiAlignJustify } from 'react-icons/tfi';
+import { TfiClose } from 'react-icons/tfi';
+import { MdMenu } from 'react-icons/md';
+import { MdOutlineClear } from 'react-icons/md';
 import { ThemeContext } from 'context/theme';
 import './Navbar.css';
 
@@ -51,9 +53,11 @@ export const Navbar = () => {
         type="button"
         aria-label="toggle navigation"
         onClick={toggleNavList}
-        style={{ position: showNavList ? 'fixed' : 'static' }}
+        style={{
+          position: showNavList ? 'fixed' : 'static',
+        }}
       >
-        {showNavList ? <GrClose /> : <GrMenu />}
+        {showNavList ? <MdOutlineClear /> : <MdMenu />}
       </button>
     </nav>
   );
