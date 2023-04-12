@@ -2,6 +2,7 @@
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
+  background-image: var(--bg-img);
   position: relative;
   font-family: Roboto, sans-serif;
 }
@@ -16,13 +17,13 @@
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
+  --clr-bg: #2d1950;
+  --bg-img: url(images/Night.jpg);
+  --clr-bg-alt: rgba(12, 8, 24, 0.904);
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --clr-primary: #c770f0;
+  --shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459);
 }
 
 main {
