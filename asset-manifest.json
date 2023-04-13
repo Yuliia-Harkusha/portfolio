@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fb27081b.css",
-    "main.js": "/portfolio/static/js/main.ef6ddb95.js",
+    "main.css": "/portfolio/static/css/main.b60540ce.css",
+    "main.js": "/portfolio/static/js/main.f60b5325.js",
     "static/media/Weather.jpg": "/portfolio/static/media/Weather.66700052c4808f5df6cb.jpg",
     "static/media/Phone.jpg": "/portfolio/static/media/Phone.16dd8aa04c8a8722f142.jpg",
     "static/media/Petly.png": "/portfolio/static/media/Petly.8fb053f6940ba6e2440c.png",
     "static/media/Cocktail.webp": "/portfolio/static/media/Cocktail.95a949da704c99ff3497.webp",
     "static/media/WebStudio.jpg": "/portfolio/static/media/WebStudio.8859c55924449aec3992.jpg",
     "static/media/Facetune.jpg": "/portfolio/static/media/Facetune.a1236356a4bf1043ebe0.jpg",
+    "static/media/Night.jpg": "/portfolio/static/media/Night.495f1bb9e372479007df.jpg",
     "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
-    "main.fb27081b.css.map": "/portfolio/static/css/main.fb27081b.css.map",
-    "main.ef6ddb95.js.map": "/portfolio/static/js/main.ef6ddb95.js.map"
+    "main.b60540ce.css.map": "/portfolio/static/css/main.b60540ce.css.map",
+    "main.f60b5325.js.map": "/portfolio/static/js/main.f60b5325.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb27081b.css",
-    "static/js/main.ef6ddb95.js"
+    "static/css/main.b60540ce.css",
+    "static/js/main.f60b5325.js"
   ]
 }
