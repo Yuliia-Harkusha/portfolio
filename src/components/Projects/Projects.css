@@ -42,6 +42,7 @@
   text-align: center;
   box-shadow: var(--shadow);
   border-radius: 8px;
+  background-color: var(--clr-add);
 }
 
 .project__image {
