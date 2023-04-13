@@ -31,10 +31,11 @@
   color: var(--clr-bg-alt);
   font-size: 1.2rem;
   cursor: pointer;
+  box-shadow: var(--shadow);
   transition: opacity 300ms ease-in-out;
 }
 
 .contacts__social__link:hover,
 .contacts__social__link:focus {
-  opacity: 0.7;
+  opacity: 0.75;
 }

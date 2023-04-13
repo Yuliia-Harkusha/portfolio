@@ -17,3 +17,10 @@
   box-shadow: var(--shadow);
   opacity: 0.9;
 }
+
+@media (max-width: 600px) {
+  .scrollUp {
+    bottom: 3rem;
+    right: 1.5rem;
+  }
+}
