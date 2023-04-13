@@ -1,8 +1,6 @@
 import { useState, useContext } from 'react';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { BsFillSunFill } from 'react-icons/bs';
-import { TfiAlignJustify } from 'react-icons/tfi';
-import { TfiClose } from 'react-icons/tfi';
 import { MdMenu } from 'react-icons/md';
 import { MdOutlineClear } from 'react-icons/md';
 import { ThemeContext } from 'context/theme';

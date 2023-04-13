@@ -20,8 +20,8 @@
   --clr-bg: #2d1950;
   --bg-img: url(images/Night.jpg);
   --clr-bg-alt: rgba(12, 8, 24, 0.904);
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
+  --clr-fg: #f1f1f1;
+  --clr-fg-alt: #d6d2ff;
   --clr-primary: #c770f0;
   --shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459);
 }

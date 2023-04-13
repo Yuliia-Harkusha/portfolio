@@ -27,7 +27,7 @@
 
 .btn-icon.nav__theme:hover,
 .btn-icon.nav__theme:focus {
-  color: rgb(244, 188, 21);
+  color: rgb(255, 198, 25);
 }
 
 @media (max-width: 600px) {
