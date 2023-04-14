@@ -6,7 +6,7 @@ export const Header = () => {
   const [headerColor, setHeaderColor] = useState(false);
 
   const scrollHandler = () => {
-    if (window.scrollY >= 30) {
+    if (window.scrollY >= 20) {
       setHeaderColor(true);
     } else {
       setHeaderColor(false);

@@ -7,7 +7,9 @@ export const Home = () => {
     <section className="section home">
       <div>
         <p className="top-title">Junior Front-End Developer</p>
-        <h1 className="home-title">Hello, I'm Yuliia</h1>
+        <h1 className="home-title">
+          Hello, I'm <span className="home-name">Yuliia</span>
+        </h1>
         <p className="home-about">
           I am a Junior Frontend Developer with a focus on JavaScript and
           ReactJS, passionate about learning and exploring new things .

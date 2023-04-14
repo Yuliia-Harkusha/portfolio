@@ -1,19 +1,23 @@
 header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   display: flex;
   align-items: center;
   width: auto;
   height: 4rem;
+  background-color: inherit;
+  background-image: inherit;
   z-index: 2;
-  transition: all 300ms ease-in-out;
+  transition: all 250ms;
 }
 
 .sticky {
-  position: sticky;
-  top: 0;
-  right: 0;
-  left: 0;
   background-color: var(--crl-sticky);
   backdrop-filter: blur(15px);
+  transition: all 250ms;
+  background-image: none;
 }
 
 .header-wrapper {
@@ -29,9 +33,3 @@ header {
   font-weight: 900;
   font-size: 2rem;
 }
-
-/* @media (max-width: 600px) {
-  .header {
-    height: 4rem;
-  }
-} */

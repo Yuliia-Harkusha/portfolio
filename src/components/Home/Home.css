@@ -5,7 +5,11 @@
   gap: 3rem;
   padding-right: 2rem;
   padding-left: 2rem;
+  padding-top: 9rem;
   font-size: 1.1rem;
+}
+.section.home {
+  margin: 0;
 }
 
 .top-title {
@@ -30,6 +34,11 @@
   margin-bottom: 1.5rem;
   font-family: Raleway, sans-serif;
   color: var(--clr-primary);
+  font-weight: 600;
+}
+
+.home-name {
+  font-weight: 800;
 }
 
 .home-about {

@@ -17,19 +17,19 @@ body {
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #ae33cd;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --shadow: 0 4px 5px 3px #77358875;
 }
 
 .dark {
   --clr-bg: #2d1950;
   --bg-img: url(images/Night.jpg);
-  --clr-bg-alt: rgba(12, 8, 24, 0.904);
-  --clr-add: hsla(243, 27%, 15%, 0.663);
+  --clr-bg-alt: #0c0818e7;
+  --clr-add: #1d1c31a9;
   --crl-sticky: #1b1a2ea9;
   --clr-fg: #f1f1f1;
   --clr-fg-alt: #d6d2ff;
   --clr-primary: #c770f0;
-  --shadow: 0 4px 5px 3px hsla(288, 44%, 37%, 0.459);
+  --shadow: 0 4px 5px 3px #77358875;
 }
 
 main {
