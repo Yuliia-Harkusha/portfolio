@@ -7,7 +7,7 @@ export const SingleProject = ({ project }) => {
     <div className="project">
       <img className="project__image" src={project.image} alt={project.name} />
 
-      <h3>{project.name}</h3>
+      <h3 className="project__name">{project.name}</h3>
 
       <p className="project__description">{project.description}</p>
 

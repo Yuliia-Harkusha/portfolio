@@ -40,7 +40,7 @@ export const Projects = () => {
 
   return (
     <section id="projects" className="section">
-      <h2 className="section__title">Projects</h2>
+      <h2 className="section__title">My projects</h2>
 
       <div className="projects">
         <Slider {...settings}>
