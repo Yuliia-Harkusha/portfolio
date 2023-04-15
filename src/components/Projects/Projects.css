@@ -53,8 +53,10 @@
 }
 
 .project__name {
+  font-family: Raleway;
   font-size: 1.5rem;
   letter-spacing: 0.05rem;
+  color: var(--clr-fg-alt);
 }
 
 .project__description {
