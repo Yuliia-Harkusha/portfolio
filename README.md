@@ -1,2 +1,2 @@
-Portfolio website that collect my main projects
+Portfolio website that collects my main projects.
 
