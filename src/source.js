@@ -8,7 +8,7 @@ const skills = [
   'HTML',
   'CSS',
   'SASS',
-  'Responsive design',
+  'Responsive layout',
   'JavaScript',
   'React',
   'Redux',
