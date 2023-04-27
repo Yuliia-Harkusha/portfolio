@@ -15,7 +15,8 @@ const skills = [
   'Git',
 ];
 
-const linkCV = '';
+const linkCV =
+  'https://drive.google.com/file/d/1iJZ7gmyPuMGnhdpOD7y29KdwQo9FrNEF/view?usp=share_link';
 
 const projects = [
   {
@@ -28,7 +29,7 @@ const projects = [
       'React Router',
       'React Context',
       'Styled Components',
-      'ThCocktailDB API',
+      'TheCocktailDB API',
     ],
     sourceCode: 'https://github.com/Yuliia-Harkusha/cocktails',
     livePreview: 'https://yuliia-harkusha.github.io/cocktails/',
