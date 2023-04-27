@@ -16,7 +16,7 @@ const skills = [
 ];
 
 const linkCV =
-  'https://drive.google.com/file/d/1iJZ7gmyPuMGnhdpOD7y29KdwQo9FrNEF/view?usp=share_link';
+  'https://drive.google.com/file/d/1Kbb-tbRG9DistcFsmSjf74gTbidnVXX5/view?usp=share_link';
 
 const projects = [
   {
